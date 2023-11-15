@@ -168,7 +168,7 @@ function changeLanguage() {
   hash = hash.substring(1);
   console.log(hash);
   if (!allLang.includes(hash)) {
-    location.href = window.location.pathname + "#en";
+    location.href = window.location.pathname + "#ru";
     location.reload();
   }
   select.value = hash;
